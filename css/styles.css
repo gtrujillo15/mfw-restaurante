@@ -26,11 +26,10 @@
 
 .nav li a:hover {
   background-color: transparent;
-
 }
 
 nav .navbar {
-  position: absolute;
+
   top: 100;
   right: 0;
   left: 0;
@@ -169,6 +168,120 @@ background-image: url('../img/restaurant-2.jpg');
 
 #our_story h1,
 #review h1,
-#review p {
+#review p
+#menu h1 {
   text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/* Menu Section */
+
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#menu h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+}
+
+#menu h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  /* font-size: 2em; */
+}
+
+#menu a {
+  color: #f8512a;
+  font-family: 'Raleway', sans-sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  font-color: #000;
+}
+
+.food {
+  background-color: #fff;
+  padding: 20px 0px 10px 0px;
+}
+
+#menu, .nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
+
+#menu .nav-justify li a {
+  margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a {
+  border: none;
+}
+
+/* Contact Section */
+
+.contact_form {
+  background-color: #ff6633;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact_form form {
+  padding: 5% 0;
+}
+
+.contact_form span {
+  color: #ff0d06;
+}
+
+#contact {
+  background-color: #f8512f;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+}
+
+#contact_fine_print {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768) {
+  .story_year {
+    font-size: 160px;
+    /* fix the position */
+  }
 }
