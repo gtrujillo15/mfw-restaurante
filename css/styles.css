@@ -38,13 +38,14 @@ nav.navbar {
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+  position: absolute;
 }
 
 .navbar-brand > img {
   margin-top: -7px;
 }
 
-/* Coursel */
+/* Carousel */
 
 .wrap {
   min-height: 100vh;
@@ -116,7 +117,7 @@ background-image: url('../img/restaurant-2.jpg');
 
 #our_story h3 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 2em;
   margin-top: 0;
 }
@@ -132,7 +133,7 @@ background-image: url('../img/restaurant-2.jpg');
   font-weight: 700;
   z-index: -1;
   position: absolute;
-  color: rgba(149, 147, 147, 0.02)
+  color: #cccccc;
 }
 
 /* Review Section */
@@ -238,10 +239,6 @@ background-image: url('../img/restaurant-2.jpg');
 
 .contact_form form {
   padding: 5% 0;
-}
-
-.contact_form span {
-  color: #ff0d06;
 }
 
 #contact {
